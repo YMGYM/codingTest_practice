@@ -7,6 +7,3 @@ for i in range(1, len(array)): # 2번부터 시작
             print(array)
         else: # 자기보다 작은 원소 앞에서 멈춤
             break
-
-
-    
