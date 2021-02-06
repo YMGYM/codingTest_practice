@@ -18,8 +18,8 @@ arrA.sort()
 arrB.sort(reverse=True)
 
 for i in range(K):
-    if a[i] < b[i]:
-        a[i], b[i] = b[i], a[i]
+    if arrA[i] < arrB[i]:
+        arrA[i], arrB[i] = arrB[i], arrA[i]
 
     else:
         break
